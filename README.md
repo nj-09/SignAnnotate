@@ -113,9 +113,9 @@ LN23C.eaf,reject,2024-10-03T14:28:42,Poor timing
 ### BSL Corpus Data Structure
 This tool requires EAF files with **ID gloss annotations** (RH-IDgloss, LH-IDgloss tiers containing signs like "GOOD", "HELLO", etc.).
 
-**Important Note**: Public CAVA narrative files contain only English translations, not ID gloss annotations. For full functionality, this tool requires:
+**Important Note**: During development testing with public CAVA narrative files from multiple regions, I found they contain only English translations rather than ID gloss annotations. The BSL Corpus annotation process may still be in progress for some regions. For full functionality, this tool requires:
 - **Conversation files** with detailed ID gloss annotations (UCL internal access)
-- **Annotated EAF files** with RH-IDgloss/LH-IDgloss tiers
+- **Completed EAF files** with RH-IDgloss/LH-IDgloss tiers
 
 ### Input Files
 - **EAF files**: ELAN annotation files with RH-IDgloss or LH-IDgloss tiers
