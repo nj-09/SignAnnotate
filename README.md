@@ -1,8 +1,10 @@
-# Bad Offset Identifier Tool
+# SignAnnotate: A Suite of Tools for BSL Research
 
-A Python-based tool for identifying BSL video files with poor offset alignment in the British Sign Language Corpus. This tool processes EAF annotation files and corresponding video files to detect synchronization issues between multiple camera angles.
+This project is dedicated to building Python-based tools that automate manual processes for researchers working with the British Sign Language (BSL) Corpus.
 
-## Overview
+## Tool #1: The Offset Identifier (Complete & Delivered)
+
+A Python-based tool for identifying BSL video files with poor offset alignment in the British Sign Language Corpus. This tool processes EAF annotation files and corresponding video files to detect synchronisation issues between multiple camera angles.
 
 The tool extracts frames from video files at the midpoint of "GOOD" sign annotations and displays them side-by-side for visual inspection. Users can quickly identify files where video timing does not match annotation timing, indicating offset alignment problems.
 
@@ -162,3 +164,7 @@ This tool requires EAF files with **ID gloss annotations** (RH-IDgloss, LH-IDglo
 ## License
 
 This tool is designed for academic research use with the British Sign Language Corpus.
+
+## Tool #2: Automatic Sign Recognition (🚧 In Progress)
+
+This is the in-progress module for building a machine learning pipeline to automatically suggest sign annotations from raw video. This component is under active development.
